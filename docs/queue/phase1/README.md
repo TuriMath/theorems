@@ -24,7 +24,7 @@ Sai's direction is in TuriMath/theorems#2. Each file here is the body of one the
 **Changes from Sai's list:**
 - Euclid's lemma moves from 14th to 4th. It is Tier 0, and it comes before the fundamental theorem of arithmetic, which builds on it. That way all of Tier 0 is done before Tier 1.
 - Item 3 formalizes Bézout's identity only. Euclid's algorithm is a procedure, not a statement.
-- In Fermat's little theorem the quote is the a^p ≡ a form, for every integer a. Mathlib's `ZMod.pow_card` matches it, and `ZMod.pow_card_sub_one_eq_one` covers the a ∤ p variant.
+- In Fermat's little theorem the quote is the a^p ≡ a form, for every integer a. Mathlib's `ZMod.pow_card` matches it, and `ZMod.pow_card_sub_one_eq_one` covers the p ∤ a variant.
 
 **Where Mathlib has only part of the quote** (expect a harder equivalence step, a useful calibration signal): the "Moreover" half of Bézout, the "only if" direction of two squares, the unweighted AM–GM equality case, and the 1 + ⋯ + n index shift.
 
