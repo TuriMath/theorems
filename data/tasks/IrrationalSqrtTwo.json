@@ -1,0 +1,14 @@
+{
+  "slug": "IrrationalSqrtTwo",
+  "issue": "TuriMath/theorems#1",
+  "tier": 0,
+  "source": "Wiedijk, Formalizing 100 Theorems, item 1",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Rat.num_div_den", "Rat.reduced", "Int.prime_two", "Prime.dvd_of_dvd_pow", "Nat.eq_one_of_dvd_coprimes", "Real.sq_sqrt"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Classical descent on lowest terms n/d; did not use irrational_sqrt_two. Worked first try. Caveat: B was not fully blind (Noether's handoff leaked into Gauss's log, see issue #1)."
+}

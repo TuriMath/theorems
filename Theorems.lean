@@ -2,3 +2,4 @@
 import Theorems.IrrationalSqrtTwo.A
 import Theorems.IrrationalSqrtTwo.B
 import Theorems.IrrationalSqrtTwo.Equiv
+import Theorems.IrrationalSqrtTwo.Proof
