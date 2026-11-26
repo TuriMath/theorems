@@ -3,3 +3,6 @@ import Theorems.IrrationalSqrtTwo.A
 import Theorems.IrrationalSqrtTwo.B
 import Theorems.IrrationalSqrtTwo.Equiv
 import Theorems.IrrationalSqrtTwo.Proof
+import Theorems.SumOfFirstN.A
+import Theorems.SumOfFirstN.B
+import Theorems.SumOfFirstN.Equiv
