@@ -7,3 +7,6 @@ import Theorems.SumOfFirstN.A
 import Theorems.SumOfFirstN.B
 import Theorems.SumOfFirstN.Equiv
 import Theorems.SumOfFirstN.Proof
+import Theorems.InfinitudeOfPrimes.A
+import Theorems.InfinitudeOfPrimes.B
+import Theorems.InfinitudeOfPrimes.Equiv
