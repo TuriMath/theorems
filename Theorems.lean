@@ -10,3 +10,4 @@ import Theorems.SumOfFirstN.Proof
 import Theorems.InfinitudeOfPrimes.A
 import Theorems.InfinitudeOfPrimes.B
 import Theorems.InfinitudeOfPrimes.Equiv
+import Theorems.InfinitudeOfPrimes.Proof
