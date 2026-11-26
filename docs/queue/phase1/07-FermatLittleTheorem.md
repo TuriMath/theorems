@@ -1,5 +1,5 @@
 **Slug:** FermatLittleTheorem
-**Tier:** 1 (calibration: in Mathlib as `ZMod.pow_card_sub_one_eq_one`)
+**Tier:** 1 (calibration: in Mathlib as `ZMod.pow_card`)
 
 ### Source statement (quoted exactly)
 > In number theory, Fermat's little theorem states that if p is a prime number, then for any integer a, the number a^p − a is an integer multiple of p. In the notation of modular arithmetic, this is expressed as a^p ≡ a (mod p).

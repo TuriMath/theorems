@@ -12,4 +12,4 @@ Reference: Wikipedia, "Binomial theorem", section "Statement", retrieved 2026-11
 - `Commute.add_pow` for commuting elements of a semiring.
 
 ### Notes for formalizers
-n is a natural number. x and y are elements of an arbitrary commutative ring. The coefficients C(n, k) are natural numbers, viewed in that ring.
+n is a natural number. x and y are elements of an arbitrary commutative ring `R : Type u` (universe-polymorphic). Do not generalise to semirings, and do not narrow to a specific ring. The coefficients C(n, k) are natural numbers, viewed in that ring.

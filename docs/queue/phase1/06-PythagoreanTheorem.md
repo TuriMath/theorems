@@ -11,5 +11,5 @@ Reference: Wikipedia, "Pythagorean theorem" (lead), retrieved 2026-11-26. Euclid
 - `InnerProductGeometry.norm_add_sq_eq_norm_sq_add_norm_sq_iff_real_inner_eq_zero` is the vector form.
 
 ### Notes for formalizers
-Only the forward direction: if a triangle has a right angle, then the square of the hypotenuse equals the sum of the squares of the legs. The converse is not part of this theorem. The triangle lies in the Euclidean plane, and "right angle" means an angle of π/2 at the vertex opposite the hypotenuse.
+Only the forward direction: if a triangle has a right angle, then the square of the hypotenuse equals the sum of the squares of the legs. The converse is not part of this theorem. The triangle lies in the Euclidean plane: its points are in `EuclideanSpace ℝ (Fin 2)` or a 2-dimensional Euclidean affine space. Do not use `ℝ × ℝ` (Mathlib gives it the sup metric, not the Euclidean one). The three vertices are distinct (a non-degenerate triangle); this is a stated hypothesis, since in Mathlib the angle with a zero vector is π/2. Also, "right angle" means an angle of π/2 at the vertex opposite the hypotenuse.
 Note for Euler: the Euclidean-geometry imports are large. Keep them narrow on the small VM.
