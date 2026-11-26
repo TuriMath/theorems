@@ -1,0 +1,14 @@
+{
+  "slug": "InfinitudeOfPrimes",
+  "issue": "TuriMath/theorems#6",
+  "tier": 0,
+  "source": "Wikipedia, Euclid's theorem (lead sentence); Euclid, Elements IX.20; Wiedijk, Formalizing 100 Theorems, item 11",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Nat.exists_prime_and_dvd", "Nat.dvd_factorial", "Nat.factorial_pos", "Nat.dvd_add_right", "Nat.dvd_one", "Set.infinite_of_not_bddAbove"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Euclid with n!+1: a prime factor p is not <= n, else p divides n! and 1. Did not use Nat.exists_infinite_primes or Nat.not_bddAbove_setOfPred_prime. Two lemma names fixed after first build (Set.infinite_of_not_bddAbove needs Mathlib.Data.Set.Finite.Lattice)."
+}
