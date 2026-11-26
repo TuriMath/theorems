@@ -1,1 +1,4 @@
 # sha256  path. Statements locked after their A<->B PR merged. Lines are only ever added (scripts/gate.py, check 6).
+0e5f8ce0e8407b649502337cd311256d34110651a6c7f7acfe159bd8d34bfa7c  Theorems/IrrationalSqrtTwo/A.lean
+996ce560ffaba8e994941a37278628de8da70584d1275b8dcaff1e10be7c3ff2  Theorems/IrrationalSqrtTwo/B.lean
+886d79408170f99859a0c4e97ff858d97796f5e6b3b8a45b8ffebaec602bd876  Theorems/IrrationalSqrtTwo/Equiv.lean
