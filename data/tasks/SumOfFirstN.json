@@ -1,0 +1,14 @@
+{
+  "slug": "SumOfFirstN",
+  "issue": "TuriMath/theorems#7",
+  "tier": 0,
+  "source": "Wikipedia, Triangular number, section Formula; Wiedijk, Formalizing 100 Theorems, item 68",
+  "statement_provenance": "blind-double",
+  "verdict": "proved",
+  "attempts": {"formalize_rounds": 1, "equiv": 1, "prove": 1},
+  "mathlib_lemmas": ["Finset.sum_Icc_succ_top", "add_mul"],
+  "calibration": true,
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib_rev": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Induction on 2*sum = n(n+1) over Icc 1 n, then omega for the natural division. Did not use Finset.sum_range_id_mul_two. Worked first try."
+}
